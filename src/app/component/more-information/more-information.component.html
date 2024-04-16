@@ -1,0 +1,90 @@
+<div class="continer-fluid">
+    <div class="row justify-content-center align-items-center ">
+        <div class="col-sm-12 col-lg-11 col-md-11 ">
+            <div class="card text-center">
+                <div class="card-body ">
+                    <h1 class="card-title mb-3">O que é o cyberbullying?</h1>
+                    <p class="card-text text-muted">O cyberbullying é uma forma de bullying que ocorre através de
+                        dispositivos eletrônicos, como smartphones, computadores e tablets, bem como plataformas de
+                        mídia social, mensagens de texto, fóruns online e jogos online. Envolve o uso deliberado de
+                        tecnologia para intimidar, assediar, ameaçar ou humilhar uma pessoa ou um grupo.</p>
+                    <p class="card-text text-muted">
+                        O cyberbullying pode assumir várias formas, incluindo:</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card border-light mb-3" style="max-width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Assédio online:</h5>
+                                        <p class="card-text">Envio repetido de mensagens ameaçadoras, insultos ou
+                                            comentários ofensivos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-light mb-3" style="max-width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Exclusão deliberada: </h5>
+                                        <p class="card-text"> Excluir alguém de grupos online, chats ou jogos para
+                                            excluí-los socialmente.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-light mb-3" style="max-width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Divulgação de informações pessoais:</h5>
+                                        <p class="card-text">Compartilhar informações privadas ou comprometedoras sobre
+                                            alguém sem permissão.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card border-light mb-3" style="max-width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Manipulação de imagens:</h5>
+                                        <p class="card-text"> Criar ou compartilhar imagens ou vídeos falsos, editados
+                                            ou humilhantes de alguém.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-light mb-3" style="max-width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ridicularização:</h5>
+                                        <p class="card-text">Fazer piadas ou zombarias cruéis sobre alguém online.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-light mb-3" style="max-width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Perseguição:</h5>
+                                        <p class="card-text">Seguir alguém online, monitorar suas atividades e
+                                            assediá-las constantemente.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button *ngIf="isHome" class="btn btn-primary" (click)="_utils.goTo('information')">Saiba
+                        mais</button>
+                    <ng-template *ngIf="isHome">
+                        <div class="card border-light">
+                            <h2 class="card-title"> O cyberbullying pode ter consequências?</h2>
+                            <p class="card-text text-muted">O cyberbullying pode ter sérias consequências emocionais,
+                                psicológicas e até físicas para as vítimas, incluindo ansiedade, depressão, baixa
+                                autoestima e até mesmo pensamentos suicidas. É importante conscientizar as pessoas sobre
+                                os efeitos prejudiciais do cyberbullying e promover uma cultura de respeito e empatia
+                                online. A educação sobre segurança na internet e o estabelecimento de políticas de
+                                tolerância zero para o cyberbullying são passos essenciais para combater esse problema
+                                crescente.</p>
+                        </div>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

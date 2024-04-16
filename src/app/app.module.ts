@@ -5,13 +5,17 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { HeroComponent } from './component/Hero/hero.component';
+import { HeroComponent } from './component/hero/hero.component';
+import { MoreInformationComponent } from './component/more-information/more-information.component';
+import { NavComponent } from './component/nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeroComponent
+    HeroComponent,
+    MoreInformationComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

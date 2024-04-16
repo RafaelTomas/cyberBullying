@@ -2,17 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { UtilsService } from 'src/app/shared/utils/utils.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-nav',
+  templateUrl: './nav.component.html',
+  styleUrls: ['./nav.component.css']
 })
-export class HomeComponent implements OnInit {
+export class NavComponent implements OnInit {
 
   constructor(public _utils: UtilsService) { }
 
   ngOnInit(): void {
   }
-
-
 
 }
